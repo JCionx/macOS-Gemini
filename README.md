@@ -1,7 +1,7 @@
 # macOS Gemini
 A macOS app that brings Google's Gemini AI chatbot to your menubar.
 
-![screenshot](https://github.com/JCionx/macOS-Gemini/assets/92257741/2a335cb5-07ce-4db9-af09-542df8ab560a)
+![Screenshot 2024-03-11 at 16 15 37](https://github.com/JCionx/macOS-Gemini/assets/92257741/7645e1d5-dff1-4d90-8ac1-217d6df69e7d)
 
 This was made with Swift and SwiftUI and it's my first macOS app.
 
