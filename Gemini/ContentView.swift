@@ -17,13 +17,14 @@ struct WebView: NSViewRepresentable {
 }
 
 struct ContentView: View {
+    let url = URL(string: "https://gemini.google.com/")!
+    
     var body: some View {
         VStack {
-            let url = URL(string: "https://gemini.google.com/")!
             WebView(url: url)
         }
         .cornerRadius(5)
-        .padding(5)
+        .padding(.horizontal, 4.5)
     }
 }
 

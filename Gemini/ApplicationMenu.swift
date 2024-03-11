@@ -13,13 +13,8 @@ class ApplicationMenu: NSObject {
         customMenuItem.view = topView.view
         menu.addItem(customMenuItem)
         menu.addItem(NSMenuItem.separator())
-        
-        let aboutMenuItem = NSMenuItem(title: "About Gemini", action: #selector(about), keyEquivalent: "")
+         
         let quitMenuItem = NSMenuItem(title: "Quit", action: #selector(quit), keyEquivalent: "q")
-        
-        
-        aboutMenuItem.target = self
-        menu.addItem(aboutMenuItem)
         
         quitMenuItem.target = self
         menu.addItem(quitMenuItem)
